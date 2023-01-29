@@ -1,0 +1,166 @@
+
+
+body{
+	font:15px/1.5 Arial,Hevetica,sans-serif	;
+	padding-left: 0;
+	padding-right: 0;
+	margin:0px !important;
+    }
+
+  .container{
+     margin: auto;
+  	overflow: hidden;
+  }
+  header{
+  	background-color: #222b30;
+  	color: white;
+  	padding-top: 15px;
+  	padding-bottom: 15px;
+  	height: 70px;
+   margin: auto;
+  }
+
+
+  a{
+  	  margin-top: 70px;
+  }
+
+  header a{
+    color: white;
+    text-decoration: none;
+    font-family: cursive;
+    font-weight: bold;
+  }
+
+  header a:hover{
+  
+  	padding: 10px;
+  	color:grey ;
+  
+  }
+
+  header ul{
+  	padding: 5px;
+  }
+
+li{
+    display: inline;
+    
+    padding: 10px;
+  }
+
+  header nav{
+  	float: right;
+  	margin-top: 10px;
+  }
+
+  #hh{
+  	height: 400px;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBW7SOkVnXRyXjEnUS0-tfpoCDB5YJe8sFSecpMgKzXvBD7n4AuQ);
+  	overflow: auto;
+  	text-align: center;
+  	color: black;
+  	}
+  
+
+#kk{
+  	background-color:#222b30 ;
+  	color: white;
+  	text-align:center;
+  	}
+
+/*#kk form{
+  	margin-top: 15px;
+  	}*/
+
+#kk input [type=email]{
+	padding: 10px;
+	height: 25px;
+	width: 250px;
+	margin-left: 200px;
+}
+
+#kk .h1{
+	margin-left: 100px !important;
+}
+.b1{
+	height: 23px;
+	background-color: #e8491d;
+	border:0;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: white;
+    cursor: pointer;
+}
+
+#box{
+	margin-top: 20px;
+	height: 500px;
+}
+#box .bo{
+	float: left;
+	width: 30%;
+	padding: 10px;
+	text-align: center;
+}
+footer{
+	background-color: red;
+	color: white;
+	padding: 20px;
+	height: 150px;
+	margin-top: 20px;
+	text-align: center;
+ }
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	#My{
+		margin-left: 4px !important;
+	}
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 673px) {
+.bo img{
+	width: 90px;
+}
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (max-width: 896px) {
+	p{
+		font-size: 12px !important;
+	}
+	#kk .dsd{
+/*   margin-top: 60px !important;	*/
+	}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+	header{
+		height: 90px;
+	}
+	#hh{
+      height: 290px;
+	}
+	#kk{
+       height: 120px;
+	}
+    #box{
+       height: 460px;
+
+    }
+    p{
+		font-size: 14px;
+	}
+
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
